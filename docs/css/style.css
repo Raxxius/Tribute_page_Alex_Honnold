@@ -2,6 +2,10 @@ body {
     background-color: black;
 }
 
+p {
+    color: blue;
+}
+
 header {
     font-family: 'Roboto', sans-serif;
 }
