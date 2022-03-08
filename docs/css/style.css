@@ -1,7 +1,8 @@
 body {
-    background-color: black;
     color: antiquewhite;
     font-family: 'Roboto', sans-serif;
+    padding: 0px;
+    margin: 0px;
 }
 
 header {
@@ -9,19 +10,25 @@ header {
     font-weight: 900;
     overflow: hidden;
     font-size: 25px;
+    background-color: black;
 }
 
 p {
     color: blue;
 }
 
+#menu {
+    padding: 15px 25px 25px;
+}
+
 #menu a {
+    background-color: black;
     color: antiquewhite;
     text-align: center;
-    padding: 14px 16px;
+    padding: 15px;
     text-decoration: none;
     font-size: 25px;
-    border-radius: 3px;
+    border-radius: 5px;
 }
 
 #menu a:hover {
@@ -30,9 +37,29 @@ p {
     transition: 0.7s;
 }
 
+#title {
+    margin: 0px;
+    text-align: center;
+}
+
+
+#img-div {
+    padding-top: 25px;
+    min-height: 600px;
+    background-color: black;
+}
+
+#image {
+    width: 100%;
+    object-fit: cover;
+    object-position: 100% 0;
+    min-height: 500px;
+}
+
 #image-caption {
     font-size: large;
     color: antiquewhite;
 }
+
 
 /* responsive web design */
