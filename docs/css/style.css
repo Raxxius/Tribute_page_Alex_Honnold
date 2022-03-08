@@ -10,19 +10,32 @@ header {
     font-weight: 900;
     overflow: hidden;
     font-size: 25px;
-    background-color: black;
+    background-color: #212121;
 }
+
+main {
+    background-image: url('docs/images/Sky_with_Clouds_Background-1488.jpg');
+}
+
 
 p {
     color: blue;
 }
 
 #menu {
-    padding: 15px 25px 25px;
+    padding: 15px 25px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#menu-title {
+    width: 100%;
 }
 
 #menu a {
-    background-color: black;
+    background-color: #212121;
     color: antiquewhite;
     text-align: center;
     padding: 15px;
@@ -33,7 +46,7 @@ p {
 
 #menu a:hover {
     background-color: antiquewhite;
-    color: black;
+    color: #212121;
     transition: 0.7s;
 }
 
@@ -44,9 +57,7 @@ p {
 
 
 #img-div {
-    padding-top: 25px;
-    min-height: 600px;
-    background-color: black;
+    min-height: 500px;
 }
 
 #image {
@@ -63,3 +74,42 @@ p {
 
 
 /* responsive web design */
+
+@media screen and (min-width: 650px) {
+
+    #menu-title {
+        width: auto;
+    }
+
+    #menu {
+        width: 80%;
+        padding-left: 10%;
+        justify-content: flex-start;
+    }
+
+    #img-width {
+        width: 80%;
+        padding-left: 10%;
+    }
+
+    #image {
+        width: 80%;
+        padding-left: 10%;
+
+    }
+
+    #title {
+        background-color: #212121;
+        color: red;
+        border-radius: 5px;
+        position: absolute;
+        margin-left: 15%;
+        margin-top: 340px;
+        padding: 15px;
+    }
+
+    #img-caption {
+        position: absolute;
+        margin-left: 15%;
+    }
+}
