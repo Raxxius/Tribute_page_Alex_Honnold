@@ -2,38 +2,37 @@ body {
     background-color: black;
     color: antiquewhite;
     font-family: 'Roboto', sans-serif;
-    font-size: 200%;
 }
 
 header {
-    font-size: 100%;
     text-transform: uppercase;
+    font-weight: 900;
+    overflow: hidden;
+    font-size: 25px;
 }
 
 p {
     color: blue;
 }
 
-.topnav a {
-    float: left;
-    color: #f2f2f2;
+#menu a {
+    color: antiquewhite;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 17px;
+    font-size: 25px;
+    border-radius: 3px;
 }
 
-.topnav a:hover {
-    background-color: #ddd;
+#menu a:hover {
+    background-color: antiquewhite;
     color: black;
-}
-
-.topnav a.active {
-    background-color: #04AA6D;
-    color: white;
+    transition: 0.7s;
 }
 
 #image-caption {
     font-size: large;
     color: antiquewhite;
 }
+
+/* responsive web design */
