@@ -7,29 +7,25 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;1,100&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="css" href="docs/css/style.css">
+    <link rel="stylesheet" href="docs/css/style.css">
     <title>Tribute Page</title>
 </head>
 <body>
     <!-- Header section with a floating nav bar -->
     <header>
         <div id="header">
-            <h3>Honnald</h3>
-            <ul>
-                <li>Climbing</li>
-                <li>Charity</li>
-                <li>Life</li>
-            </ul>
+            <a class="active" href="#honnald">Honnald</a>
+            <a href="#climbing">Climbing</a>
+            <a href="#charity">Charity</a>
+            <a href="#life">Life</a>
         </div>
     </header>
     <main id="home">
-    <div id="title">
-        <h1>Alex Honnald</h1>
-    </div>
     <!-- Hero image section with a quote from Alex -->
     <div id="img-div">
-        <img id="image">
-        <p id="img-caption">context about image shown</p>
+        <h1 id="title">Alex Honnald</h1>
+        <img id="image" src="docs/images/alex-honnold-portrait.jpg" alt="Alex Honnold">
+        <p id="img-caption"><em>"It’s about being a warrior… This is your path and you will pursue it with excellence. <strong>You face your fear because your goal demands it</strong>."</em></p>
     </div>
     <!-- Section on Alex's life -->
     <div id="tribute-info">
@@ -39,11 +35,15 @@
         </div>
         <!-- Alex's charity achievements-->
         <div id="foundation">
+            <h2>The Honnold Foundation</h2>
+            <p>"I live out of my van, which gives me a first-hand appreciation for power and lighting. A few years ago, I rebuilt the interior of my van to include solar panels and a battery that powers LEDs for lighting and allows me to charge my phone and laptop."</p>
             <h2>https://www.honnoldfoundation.org/</h2>
         </div>
         <!-- Few other details about Alex-->
         <div id="life">
             <h2>Life beyond</h2>
+            <h3>Childhood</h3>
+            <h3>Family</h3>
         </div>
     </div>
     </main>

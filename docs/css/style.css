@@ -1,15 +1,39 @@
 body {
     background-color: black;
+    color: antiquewhite;
+    font-family: 'Roboto', sans-serif;
+    font-size: 200%;
+}
+
+header {
+    font-size: 100%;
+    text-transform: uppercase;
 }
 
 p {
     color: blue;
 }
 
-header {
-    font-family: 'Roboto', sans-serif;
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
 }
 
-h3 {
-    font-family: 'Roboto', sans-serif;
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+#image-caption {
+    font-size: large;
+    color: antiquewhite;
 }
