@@ -21,7 +21,8 @@ main {
 
 
 p {
-    color: blue;
+    color: antiquewhite;
+    font-weight: 500;
 }
 
 #menu {
@@ -74,12 +75,26 @@ p {
     color: antiquewhite;
 }
 
+#tribute-info {
+    background-color: #faebd770;
+}
+
+.tribute-text {
+    padding: 5px;
+}
+
 .p-text {
     padding: 5px;
     color: antiquewhite;
     font-size: large;
     font-weight: 800;
 }
+
+.tribute-heading {
+    background-color: #212121;
+    padding: 15px;
+}
+
 
 /* responsive web design */
 
@@ -128,5 +143,11 @@ p {
     #image-caption p {
         color: antiquewhite;
         font-weight: 700;
+    }
+
+    #tribute-info {
+        width: 80%;
+        margin-left: 10%;
+        background-color: #faebd770;
     }
 }
