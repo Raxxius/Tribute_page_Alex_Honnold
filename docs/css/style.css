@@ -14,7 +14,9 @@ header {
 }
 
 main {
-    background-image: url('docs/images/Sky_with_Clouds_Background-1488.jpg');
+    background-image: url('../images/Sky_with_Clouds_Background-1488.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 
@@ -72,6 +74,12 @@ p {
     color: antiquewhite;
 }
 
+.p-text {
+    padding: 5px;
+    color: antiquewhite;
+    font-size: large;
+    font-weight: 800;
+}
 
 /* responsive web design */
 
@@ -101,15 +109,24 @@ p {
     #title {
         background-color: #212121;
         color: red;
-        border-radius: 5px;
+        border-radius: 15px;
         position: absolute;
-        margin-left: 15%;
-        margin-top: 340px;
+        left: 15%;
+        top: 450px;
         padding: 15px;
     }
 
     #img-caption {
         position: absolute;
-        margin-left: 15%;
+        width: 270px;
+        left: 15%;
+        top: 250px;
+        background-color: #21212170;
+        border-radius: 15px;
+    }
+
+    #image-caption p {
+        color: antiquewhite;
+        font-weight: 700;
     }
 }
