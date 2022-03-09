@@ -79,6 +79,10 @@ p {
     background-color: #faebd770;
 }
 
+#el-cap {
+    width: 100%;
+}
+
 .tribute-text {
     padding: 5px;
 }
@@ -91,10 +95,18 @@ p {
 }
 
 .tribute-heading {
-    background-color: #212121;
     padding: 15px;
+    text-transform: uppercase;
 }
 
+.tribute-title {
+    background-color: #212121;
+}
+
+.tribute-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
 
 /* responsive web design */
 
@@ -149,5 +161,21 @@ p {
         width: 80%;
         margin-left: 10%;
         background-color: #faebd770;
+    }
+
+    #el-cap-tag {
+        order: 3;
+        width: 50%;
+        margin-top: 0px;
+    }
+
+    #el-cap-des {
+        order: 2;
+        width: 40%;
+    }
+
+    .tribute-img {
+        width: 50%;
+        border: 10px;
     }
 }
