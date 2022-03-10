@@ -3,6 +3,7 @@ body {
     font-family: 'Roboto', sans-serif;
     padding: 0px;
     margin: 0px;
+    font-size: larger;
 }
 
 header {
@@ -83,8 +84,13 @@ p {
     width: 100%;
 }
 
+.image-tag {
+    font-style: italic;
+}
+
 .tribute-text {
     padding: 5px;
+    text-align: justify;
 }
 
 .p-text {
@@ -106,6 +112,12 @@ p {
 .tribute-flex {
     display: flex;
     flex-wrap: wrap;
+}
+
+#june-h-fb-post {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* responsive web design */
@@ -171,11 +183,20 @@ p {
 
     #el-cap-des {
         order: 2;
-        width: 40%;
+        width: 50%;
+        align-self: center;
     }
 
     .tribute-img {
         width: 50%;
         border: 10px;
+        align-self: center;
     }
+
+    .tribute-text {
+        font-size: larger;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
 }
