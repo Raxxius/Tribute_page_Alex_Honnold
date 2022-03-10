@@ -1,7 +1,7 @@
 body {
     color: antiquewhite;
     font-family: 'Roboto', sans-serif;
-    padding: 0px;
+    padding-top: 0px;
     margin: 0px;
     font-size: larger;
 }
@@ -12,19 +12,29 @@ header {
     overflow: hidden;
     font-size: 25px;
     background-color: #212121;
+    width: 100%;
+    position: fixed;
+    z-index: 99;
 }
 
 main {
     background-image: url('../images/Sky_with_Clouds_Background-1488.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
+    padding-top: 90px;
 }
-
 
 p {
     color: antiquewhite;
     font-weight: 500;
 }
+
+iframe {
+    max-width: 100%;
+    display: block;
+    margin: auto;
+}
+
 
 #menu {
     padding: 15px 25px;
@@ -59,6 +69,7 @@ p {
     text-align: center;
 }
 
+#climbing {}
 
 #img-div {
     min-height: 500px;
@@ -87,6 +98,7 @@ p {
 
 .image-tag {
     font-style: italic;
+    padding: 5px;
 }
 
 .tribute-text {
@@ -120,6 +132,31 @@ p {
     justify-content: center;
     align-items: center;
 }
+
+.fb-post {
+    max-width: 100%;
+}
+
+.youtube-img {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.max-width {
+    max-width: 100%;
+}
+
+#foundation-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+#foundation-logo {
+    max-width: 100%;
+}
+
 
 /* responsive web design */
 
@@ -177,21 +214,20 @@ p {
     }
 
     #el-cap-tag {
-        order: 3;
-        width: 50%;
         margin-top: 0px;
     }
 
     #el-cap-des {
-        order: 2;
         width: 50%;
         align-self: center;
+        order: 2;
     }
 
     .tribute-img {
         width: 50%;
         border: 10px;
         align-self: center;
+        order: 1;
     }
 
     .tribute-text {
