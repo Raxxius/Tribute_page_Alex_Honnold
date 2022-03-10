@@ -157,6 +157,16 @@ iframe {
     max-width: 100%;
 }
 
+.life-food {
+    display: block;
+    max-width: 80%;
+    margin: 0 auto;
+}
+
+#diet-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
 
 /* responsive web design */
 
@@ -236,4 +246,22 @@ iframe {
         padding-right: 50px;
     }
 
+    .life-food {
+        height: 320px;
+    }
+
+    #food-flex-zero {
+        order: 0;
+        width: 100%;
+    }
+
+    #food-flex-one {
+        order: 1;
+        width: 50%;
+    }
+
+    #food-flex-two {
+        order: 2;
+        width: 50%;
+    }
 }
